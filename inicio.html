@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inicio - AppInem</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style_inicio.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+    }
+    
+    nav {
+      background-color: #006837;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    li {
+      display: inline-block;
+      position: relative;
+    }
+    
+    a {
+      display: block;
+      padding: 10px 20px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    a:hover {
+      background-color: #004a22;
+    }
+    
+    ul ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #006837;
+    }
+    
+    ul ul li {
+      display: block;
+      width: 200px;
+    }
+    
+    li:hover > ul {
+      display: inherit;
+    }
+    
+    h1 {
+      color: #006837;
+      text-align: center;
+      padding: 30px 0;
+    }
+    
+    .container {
+      background-image: url("https://inemjose.edu.co/colegio/newsite2021/wp-content/uploads/2021/11/00-1.jpg");
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .content {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      padding: 50px;
+      text-align: center;
+      max-width: 90%;
+    }
+    
+    @media (max-width: 768px) {
+      .content {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>AppInem</h1>
+      <nav>
+        <ul>
+          <li><a href="Mapa.html">Mapa</a></li>
+          <li><a href="enlaces_externos.html">Enlaces externos</a></li>
+          <li><a href="#">Programas académicos</a>
+            <ul>
+              <li><a href="https://mail-attachment.googleusercontent.com/attachment/u/1/?ui=2&ik=6c006713b4&attid=0.1&permmsgid=msg-f:1767009637173644281&th=1885ade72a6d4bf9&view=att&disp=inline&realattid=f_li5bwbw10&saddbat=ANGjdJ-uazB7qgdDa0K-n0tYPDPKvZpRMk70U8G1wA-vH302hDeauojTyIApP404rd1_n40c5ZmFjbnU3rs9cwZgQv59R_d-Z6elaP4BNWmek8Fzt88cG3zuU-sgGhcQTqjrDGMOP6BrVI8fOGrhODmJ1-xhm0ccQLOPiElqhSDk-nwmpFCFOWzJxEqE64O0w7jl-0TxX_wWFMNdEd9z7H3c9yoev3mXkLg7AT3ZTztGBEBJai-HkfB-U3aY3RWXsad9AX2tQNswH011zI50FITdt2tXFkMOBlkkhhH0BNZSHbwryKvOAuFXROjhbFFxdaq79wAZrMjCinvn-1nlnr6SF0Z5qBqp5TAfZ5Pv03nrWOXL1nYYkpB1lviIt2YMwuOWeibs-ScnI3mmQQNQcUN_IMsHYh-FyejDJ7aYCqrWYjNgseJ-z2PERDMyrHi-MaI7U4KSFhgyp_k7U0Y_B_hWYOHXKv186h74WLVbOYwbkEIFV0rSRyleDVX3p_cqChZYunlHb_CZrq2AzJiX1cBoeqSSRrEMWSGHAOJgP_5ZPKmAN9O763TU62u7v6O0AjDXDu_An0Tu6573aNN7lc6hYq1m_TctehrnMn25T5p8ddidZSg4HVNJYOXku42MHYr4_0a7qcWMoOFGCsMx0XCXGMPkyetUIQXBfCXfWePAJjMgy3btFYDWAJVdYA3U-kq_rD3CLRfvAWFyuw2wcXz69W2RE12Xau5hailsgw-zbRyiVnMR4T_7lZKJ0djtTnsLO4AcQOjQPh9-HrToH-nPyZChv0dZi7O_z56p0Eo5pIfujudylbafYovhXWOA8bfDdp8-booJXQbgShkfzCFejEdXrLNE5GjVzRrqMqj2AIm7chlTDDpd8v_mrr_lCJrHoVAtdl3XeRxIYSh5HB61Ghv3XJ-U21AoFdXCFhR3VkGq671oNUzjXGDbJnR1Nh0MzDZ1IVq_4jKWk7m2ttlwHZwWbxdQHZvWixnX8QjUIZEjq_3U4_Qq9tPLLwJ_hOHUUQJdfPZkViQUh96zFStJGSKK9W5a3TOvJ0hOYag">Programacion Semanal</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1CYJWkONTvdh05xFYIGCvcb7rlas0awZY">Básica primaria y Preescolar</a></li>
+              <li><a href="Basica_secundaria.html">Básica secundaria</a></li>
+            </ul>
+          </li>
+          <li><a href="Profesores.html">Profesores</a></li>
+          <li><a href="horario.html">Horario</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
